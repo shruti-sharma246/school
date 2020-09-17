@@ -1,0 +1,137 @@
+body{
+
+    background-image: url(https://st2.depositphotos.com/1967477/8364/v/950/depositphotos_83642104-stock-illustration-happy-school-children-in-front.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+
+}
+.schooling-project{
+    padding: 8% 10% 7% 10%;
+    margin: 2% 10% 2% 10%;
+    border: 2px;
+    border-color: rgb(164, 152, 175);
+    /* background-color: rgb(224, 157, 133); */
+    background: transparent;
+    text-align: center;
+    display : flex;
+    flex-direction: row;
+    color: thistle;  
+}
+.math{
+    border: darkgoldenrod;
+    border-radius:50% ;
+    padding: 8% 10% 7% 10% ;
+    /* background-image: url(img3.jpg); */
+    background: cover;
+    color:white;
+    font-size: 30px;
+    background-color: darkslategray;
+   
+}
+.english{
+    border: darkgoldenrod;
+    border-radius:50% ;
+    padding:  8% 10% 7% 10%;
+    /* background-image: url(img3.jpg); */
+    background: cover;
+    color:white;
+    font-size: 30px;
+    background-color: rgb(109, 106, 72);
+   
+     
+}
+.hindi{
+    border: darkgoldenrod;
+    border-radius:50% ;
+    padding:  8% 10% 7% 10%;
+    /* background-image: url(img3.jpg); */
+    background: cover;
+    color:white;
+    font-size: 30px;
+    background-color:darkkhaki;
+    
+}
+.navBar {
+    background-color: rgb(16, 7, 34);
+    margin: 3px;
+}
+
+.navBar ul {
+    overflow: auto;
+}
+
+.navBar li {
+    float: left;
+    list-style: none;
+    /* margin: 5px 0px; */
+    margin: 12px 0px;
+
+}
+
+.navBar a {
+    padding: 3px 30px;
+    text-decoration: none;
+    color: white;
+}
+.searchbox{
+    float: right;
+}
+
+
+.search {
+    float: right;
+    color: white;
+    padding: 12px 75px;   
+}
+ .navbar input{ 
+    border:2px solid black;
+    border-radius: 4px;
+    padding: 3px 4px;
+} 
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("photographer.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: 10% 2% 2% 2%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+a{
+    color: rgba(231, 236, 245, 0.788);
+}
